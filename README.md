@@ -1,4 +1,4 @@
-# Basic_Mongoose
+## Basic_Mongoose
 
 ### Step 1: Connect to database
 ```
@@ -24,3 +24,18 @@ abcd.find()
 })
 .catch(error => {console.log(error);})
 ```
+
+## Basic_Prisma
+|Command|Description|
+|npm install prisma --save-dev|Start prisma project|
+|npx prisma init|f|
+|npm install @prisma/client|d|
+|npm install prisma --save-dev|d|
+|npx prisma db pull --force| Load collections & check if connection ok|
+|npx prisma generate|When schema is updated|
+|-|-|
+|-|-|
+
+
+
+
