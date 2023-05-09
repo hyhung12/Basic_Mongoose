@@ -41,14 +41,19 @@ model est12 {
   Level String
   Name  String
 }
+```
 ### GET
 ```
-findMany({
+var data = await prisma.test12.findMany({
 where: {},
 include: {}
 })
 ```
 ### POST
+var data = await prisma.test12.create({
+  data: {
+  },
+  })
 ### DELETE
 
 
