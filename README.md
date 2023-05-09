@@ -29,9 +29,9 @@ abcd.find()
 |Command|Description|
 |-|-|
 |npm install prisma --save-dev|Start prisma project|
-|npx prisma init|f|
-|npm install @prisma/client|d|
-|npm install prisma --save-dev|d|
+|npx prisma init||
+|npm install @prisma/client||
+|npm install prisma --save-dev||
 |npx prisma db pull --force| Load collections & check if connection ok|
 |npx prisma generate|When schema is updated|
 
