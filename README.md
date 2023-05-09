@@ -41,7 +41,16 @@ model est12 {
   Level String
   Name  String
 }
+### GET
 ```
+findMany({
+where: {},
+include: {}
+})
+```
+### POST
+### DELETE
+
 
 
 
