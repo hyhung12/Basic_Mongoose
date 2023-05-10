@@ -30,9 +30,9 @@ abcd.find()
 |-|-|
 |npm install prisma --save-dev|Start prisma project|
 |npx prisma init||
-|npm install @prisma/client||
 |npx prisma db pull --force| Load collections & check if connection ok|
 |npx prisma generate|When schema is updated|
+|npm install @prisma/client||
 
 ```
 model est12 {
