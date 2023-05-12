@@ -35,7 +35,7 @@ abcd.find()
 |npm install @prisma/client||
 
 ```
-model est12 {
+model test12 {
   id    String @id @default(auto()) @map("_id") @db.ObjectId
   Age   String
   Level String
@@ -50,11 +50,20 @@ include: {}
 })
 ```
 ### POST
-var data = await prisma.test12.create({
-  data: {
-  },
-  })
+```
+var dataArray
+await readJSON('job_data.json').then(dataJSON => {
+  dataArray = JSON.parse(dataJSON, {depth: Infinity})
+})
+// console.dir(dataArray, {depth: Infinity})
+// await prisma.companies.createMany({data: dataArray})
+```
+### PUT
+### PATCH
 ### DELETE
+```
+await prisma.companies.deleteMany()
+```
 
 
 
